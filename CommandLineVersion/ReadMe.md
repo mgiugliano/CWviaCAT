@@ -5,7 +5,7 @@ This is a first release of my (bare minimum) command-line Python3 utilities to c
 Note that I am not (yet) skilled in Python. I started this exploiration to see whether my radio could be ultimately controlled by the PC, without ad hoc external interfaces or additional cables running from my PC to the radio. These experiments set the ground for a minimalistic GUI software to have rapid contest operation (inspired by Morse Runner). 
 
 
-## Required Python modules
+## Required Python modules and Install Instructions
 
 The extra module ```PySerial``` has to be (pip3) installed, if not already available in your Python3 environment. On my laptop, I just installed it by pip3:
 
@@ -13,6 +13,9 @@ The extra module ```PySerial``` has to be (pip3) installed, if not already avail
 
 See more at <https://pypi.org/project/pyserial/>
 
+For installing these command-line utilities, simply copy all ```*.py``` files in a folder. The ```CWvCAT.py``` is a concise (and commented) module that hides most of the serial communication mechanisms. This module is "imported" by each of the other scripts. 
+
+To use them, you must likely be launching a shell. Refer to YouTube videos or blog resources, if you are not familiar with a shell. Operations are however extremely basic, requiring you to know how to launch a python script from the command line prompt of your favourite interpreter.
 
 ## Configuration of the serial interface
 
