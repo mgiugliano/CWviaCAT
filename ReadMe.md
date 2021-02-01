@@ -1,5 +1,7 @@
 # CW over CAT for Kenwood TS590SG
 
+**UPDATE**: First developed under macOs, the (command line) software works flawlessly under Windows. The GUI also works but the window is wrongly sized under Windows, presumably depending on my original screen resolution. I will try to tweak Tkinker's settings to solve the bug. 
+
 ## Introduction
 
 I am a HAM radio operator and I am currently studying wireless telegraphy, known as CW (https://en.wikipedia.org/wiki/Wireless_telegraphy). I am still as novice and during the last weeks, while enjoying the intermediate-level course from CW Academy (https://cwops.org/cw-academy/), my instructor suggested to use Morse Runner. This is a Windows software (http://www.dxatlas.com/morserunner/) that simulates quite accurately the experience of "radio contesting" (https://en.wikipedia.org/wiki/Contesting).
